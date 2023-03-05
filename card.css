@@ -97,7 +97,6 @@ a {
     margin-right: 18px;
     font-weight: bold;
     color: rgba(0, 0, 0, 0.550);
-
 }
 
 .dropdown .dropbtn {
@@ -141,244 +140,114 @@ a {
     display: block;
 }
 
+
 /* ////////////////////Section-1///////////////// */
+
 .Sec-1 {
     display: flex;
-    justify-content: space-around;
     align-items: center;
-    width: 100%;
-    height: 500px;
-    background-color: rgb(140, 244, 255);
-}
-
-.Sec-1 img {
-    width: 500px;
-    height: 400px;
-}
-
-.Sec-1 p {
-    width: 500px;
-    line-height: 30px;
-}
-
-.Sec-1 button {
-    border: none;
-    outline: none;
-    padding: 7px 20px;
-    margin-top: 18px;
-    font-weight: bolder;
+    background-color: rgb(225, 225, 225);
+    padding-left: 50px;
+    height: 50px;
+    text-align: center;
     font-weight: bold;
-    background-color: rgb(95, 18, 219);
-    font-size: 16px;
-    color: bisque;
-    transition: all .03 ease;
 }
 
-.Sec-1 button a {
-    text-decoration: none;
-    color: white;
-    font-size: 12px;
-    font-weight: bold;
-    word-spacing: 2px;
-    letter-spacing: 1px;
-}
-
-.Sec-1 button:hover {
-    transform: scale(1.1);
-    box-shadow: 5px 5px rgb(172, 170, 170);
+.Sec-1 span {
+    color: rgb(169, 50, 169);
 }
 
 /* ////////////////////Section-2///////////////// */
-
 .Sec-2 {
-    margin-top: 35px;
     display: flex;
-    justify-content: space-around;
-    color: rgba(0, 0, 0, 0.550);
+    justify-content: center;
 }
 
-.left,
-.middle,
-.right {
-    display: flex;
-    justify-content: space-between;
-    margin-left: 20px;
+table {
+    margin: 50px 0;
+    width: 80%;
+    border: 1px solid #ccc;
+    border-spacing: 0;
 }
 
-i {
-    margin-right: 20px;
-}
-
-.fa-truck,
-.fa-rotate-right {
-    font-size: xx-large;
-}
-
-.fa-question {
-    width: 32px;
-    height: 32px;
-    border-radius: 50%;
+table td,
+table th {
+    padding: 10px;
+    background-color: #eee;
+    border: 1px solid #ccc;
     text-align: center;
-    font-size: 25px;
-    font-weight: normal;
-    padding-top: 3px;
+
+}
+
+.product,
+.price,
+.total {
+    font-weight: bolder;
+}
+
+span button {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    border: 1px solid rgba(61, 61, 61, 0.32);
+    width: 35px;
+    height: 35px;
+    font-weight: bolder;
+    color: rgba(0, 0, 0, 0.813);
+    font-weight: bolder;
+    font-size: 16px;
+}
+
+span button:hover {
+    background-color: purple;
+    cursor: pointer;
+}
+
+.button span {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.remove {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    border: none;
+    width: 35px;
+    height: 35px;
+    font-weight: bolder;
+    color: rgba(0, 0, 0, 0.813);
+    font-weight: bolder;
+    font-size: 16px;
+    background-color: rgb(159, 37, 159);
 }
 
 /* ////////////////////Section-3///////////////// */
-
 .Sec-3 {
     display: flex;
-    justify-content: space-around;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    justify-content: space-between;
 }
 
-.Sec-3 img {
-    height: 450px;
-    filter: brightness(65%);
-    transition: all .03s ease;
+/* left side */
+
+.left {
+    margin-left: 125px;
 }
 
-.Sec-3 img:hover {
-    transform: scale(1.1);
-    box-shadow: 5px 5px rgb(172, 170, 170);
-}
-
-.Sec-3 p {
-    color: white;
-    position: absolute;
-    top: 205%;
-}
-
-.Sec-3 h3 {
-    color: white;
-    position: absolute;
-    top: 210%;
-}
-
-/* ////////////////////Section-4///////////////// */
-.Sec-4 {
-    background-color: rgba(157, 150, 150, 0.55);
-    padding-top: 50px;
-    padding-bottom: 50px;
-
-}
-
-.Sec-4 hr {
-    width: 4%;
-    margin: auto;
-    height: 4px;
-    background: purple;
-    margin-bottom: 10px;
-}
-
-.Sec-4 h1 {
-    width: fit-content;
-    margin: auto;
-}
-
-.Sec-4 .main {
-    display: flex;
-    justify-content: space-around;
-    margin-top: 40px;
-    margin-bottom: 40px;
-
-}
-
-
-.Sec-4 .main img {
-    height: 300px;
-    width: 345px;
-}
-
-.Sec-4 .main div {
-    width: 345px;
-    background-color: white;
-}
-
-.Sec-4 .main div span h4 {
-    width: fit-content;
-    margin: auto;
-    color: rgb(170, 54, 170)
-}
-
-.Sec-4 .main div span p {
-    width: fit-content;
-    margin: auto;
-    color: rgba(0, 0, 0, 0.550);
-}
-
-/* ////////////////////Section-5///////////////// */
-.Sec-5 {
-    padding-top: 50px;
-    padding-bottom: 50px;
-}
-
-.Sec-5 hr {
-    width: 4%;
-    margin: auto;
-    height: 4px;
-    background-color: rgb(84, 83, 84);
-    margin-bottom: 10px;
-}
-
-.Sec-5 h1 {
-    width: fit-content;
-    margin: auto;
-    color: rgb(110, 110, 110);
-
-}
-
-.Sec-5 p span {
-    color: rgb(121, 70, 203);
-
-}
-
-.Sec-5 p {
-    color: rgb(104, 104, 105);
-
-}
-
-.Sec-5 .main {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    height: 500px;
-}
-
-.Sec-5 img {
-    width: 600px;
-    height: 400px;
-    margin: 40px;
-}
-
-.Sec-5 .side {
-    width: 500px;
-
-}
-
-.Sec-5 div h1,
-.Sec-5 div p {
-    width: fit-content;
-    text-align: center;
-    margin: auto;
-}
-
-.Sec-5 .main button {
+.ADD {
     border: none;
     outline: none;
     padding: 7px 20px;
-    margin-top: 18px;
     font-weight: bolder;
     font-weight: bold;
     background-color: rgb(115, 54, 212);
     font-size: 16px;
     color: bisque;
-    margin-left: 190px;
+    margin-bottom: 35px;
+    margin-right: 10px;
+
 }
 
 
-.Sec-5 .main button a {
+.ADD a {
     text-decoration: none;
     color: white;
     font-size: 12px;
@@ -387,7 +256,83 @@ i {
     letter-spacing: 1px;
 }
 
-.Sec-5 .main button:hover {
+.ADD:hover {
+    transform: scale(1.1);
+    box-shadow: 5px 5px rgb(172, 170, 170);
+}
+
+.left h6 {
+    margin-top: 5px;
+    font-weight: normal;
+}
+
+/* Style the search field */
+form.ex input[type=text] {
+    padding: 8.5px;
+    font-size: 14px;
+    border: 1px solid grey;
+    float: left;
+    width: 70%;
+    background: #f1f1f1;
+    margin-top: 25px;
+    outline: none;
+}
+
+/* Style the submit button */
+form.ex button {
+    float: left;
+    width: 25%;
+    padding: 8.5px;
+    background-color: rgb(115, 54, 212);
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none;
+    /* Prevent double borders */
+    cursor: pointer;
+}
+
+
+/* right side */
+
+.right {
+    margin-right: 100px;
+    margin-top: 15px;
+}
+
+.right .first {
+    display: flex;
+    justify-content: space-between;
+}
+
+.right .first li {
+    margin-bottom: 25px;
+    list-style-type: none;
+    padding-left: 3px;
+}
+
+.checkout {
+    border: none;
+    outline: none;
+    border-radius: 15px;
+    padding: 15px 70px;
+    font-weight: bolder;
+    font-weight: bold;
+    background-color: rgb(141, 82, 236);
+    font-size: 15px;
+    margin-bottom: 35px;
+}
+
+.checkout a {
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+}
+
+.checkout:hover {
     transform: scale(1.1);
     box-shadow: 5px 5px rgb(172, 170, 170);
 }
@@ -398,6 +343,7 @@ footer div {
     display: flex;
     justify-content: space-around;
     color: rgba(0, 0, 0, 0.550);
+    margin-top: 80px;
 
 }
 
@@ -449,7 +395,6 @@ form.example button {
     border-left: none;
     /* Prevent double borders */
     cursor: pointer;
-    
 }
 
 form.example button:hover {

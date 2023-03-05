@@ -9,6 +9,10 @@ a {
     text-decoration: none;
 }
 
+li {
+    list-style-type: none;
+}
+
 /* ////////////////////Section-0///////////////// */
 .Sec-0 {
     display: flex;
@@ -97,7 +101,6 @@ a {
     margin-right: 18px;
     font-weight: bold;
     color: rgba(0, 0, 0, 0.550);
-
 }
 
 .dropdown .dropbtn {
@@ -111,8 +114,7 @@ a {
     font-size: 16px;
 }
 
-.navbar a:hover,
-.dropdown:hover .dropbtn {
+.navbar a:hover {
     color: rgb(115, 58, 143);
 }
 
@@ -121,7 +123,6 @@ a {
     position: absolute;
     min-width: 87px;
     z-index: 1;
-    margin-right: 18px;
     font-weight: bold;
     color: rgba(0, 0, 0, 0.550);
 }
@@ -142,257 +143,206 @@ a {
 }
 
 /* ////////////////////Section-1///////////////// */
+
 .Sec-1 {
     display: flex;
-    justify-content: space-around;
     align-items: center;
-    width: 100%;
-    height: 500px;
-    background-color: rgb(140, 244, 255);
-}
-
-.Sec-1 img {
-    width: 500px;
-    height: 400px;
-}
-
-.Sec-1 p {
-    width: 500px;
-    line-height: 30px;
-}
-
-.Sec-1 button {
-    border: none;
-    outline: none;
-    padding: 7px 20px;
-    margin-top: 18px;
-    font-weight: bolder;
+    background-color: rgb(225, 225, 225);
+    padding-left: 50px;
+    height: 50px;
+    text-align: center;
     font-weight: bold;
-    background-color: rgb(95, 18, 219);
-    font-size: 16px;
-    color: bisque;
-    transition: all .03 ease;
 }
 
-.Sec-1 button a {
-    text-decoration: none;
-    color: white;
-    font-size: 12px;
-    font-weight: bold;
-    word-spacing: 2px;
-    letter-spacing: 1px;
-}
-
-.Sec-1 button:hover {
-    transform: scale(1.1);
-    box-shadow: 5px 5px rgb(172, 170, 170);
+.Sec-1 span {
+    color: rgb(169, 50, 169);
 }
 
 /* ////////////////////Section-2///////////////// */
 
-.Sec-2 {
-    margin-top: 35px;
-    display: flex;
-    justify-content: space-around;
-    color: rgba(0, 0, 0, 0.550);
-}
-
-.left,
-.middle,
-.right {
-    display: flex;
-    justify-content: space-between;
-    margin-left: 20px;
-}
-
-i {
-    margin-right: 20px;
-}
-
-.fa-truck,
-.fa-rotate-right {
-    font-size: xx-large;
-}
-
-.fa-question {
-    width: 32px;
-    height: 32px;
-    border-radius: 50%;
-    text-align: center;
-    font-size: 25px;
-    font-weight: normal;
-    padding-top: 3px;
+.Sec-2 p {
+    margin: 50px;
+    border: 01px solid #ccc;
+    padding: 20px 20px;
+    background-color: #eee;
+    color: rgb(95, 93, 93);
 }
 
 /* ////////////////////Section-3///////////////// */
 
 .Sec-3 {
     display: flex;
-    justify-content: space-around;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    justify-content: flex-start;
 }
 
-.Sec-3 img {
-    height: 450px;
-    filter: brightness(65%);
-    transition: all .03s ease;
-}
-
-.Sec-3 img:hover {
-    transform: scale(1.1);
-    box-shadow: 5px 5px rgb(172, 170, 170);
-}
-
-.Sec-3 p {
-    color: white;
-    position: absolute;
-    top: 205%;
-}
-
-.Sec-3 h3 {
-    color: white;
-    position: absolute;
-    top: 210%;
-}
-
-/* ////////////////////Section-4///////////////// */
-.Sec-4 {
-    background-color: rgba(157, 150, 150, 0.55);
-    padding-top: 50px;
-    padding-bottom: 50px;
-
-}
-
-.Sec-4 hr {
-    width: 4%;
-    margin: auto;
-    height: 4px;
-    background: purple;
-    margin-bottom: 10px;
-}
-
-.Sec-4 h1 {
-    width: fit-content;
-    margin: auto;
-}
-
-.Sec-4 .main {
-    display: flex;
-    justify-content: space-around;
-    margin-top: 40px;
-    margin-bottom: 40px;
-
+.Sec-3 .left {
+    margin-left: 50px;
 }
 
 
-.Sec-4 .main img {
-    height: 300px;
-    width: 345px;
+.Sec-3 h1 {
+    margin-left: 50px;
+    margin-bottom: 25px;
 }
 
-.Sec-4 .main div {
-    width: 345px;
-    background-color: white;
+
+.left form {
+    padding: 25px;
+    border: 01px solid #bbbbbb;
 }
 
-.Sec-4 .main div span h4 {
-    width: fit-content;
-    margin: auto;
-    color: rgb(170, 54, 170)
+.left input {
+    margin: 10px 0;
 }
 
-.Sec-4 .main div span p {
-    width: fit-content;
-    margin: auto;
-    color: rgba(0, 0, 0, 0.550);
-}
-
-/* ////////////////////Section-5///////////////// */
-.Sec-5 {
-    padding-top: 50px;
-    padding-bottom: 50px;
-}
-
-.Sec-5 hr {
-    width: 4%;
-    margin: auto;
-    height: 4px;
-    background-color: rgb(84, 83, 84);
-    margin-bottom: 10px;
-}
-
-.Sec-5 h1 {
-    width: fit-content;
-    margin: auto;
-    color: rgb(110, 110, 110);
-
-}
-
-.Sec-5 p span {
-    color: rgb(121, 70, 203);
-
-}
-
-.Sec-5 p {
-    color: rgb(104, 104, 105);
-
-}
-
-.Sec-5 .main {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    height: 500px;
-}
-
-.Sec-5 img {
-    width: 600px;
-    height: 400px;
-    margin: 40px;
-}
-
-.Sec-5 .side {
-    width: 500px;
-
-}
-
-.Sec-5 div h1,
-.Sec-5 div p {
-    width: fit-content;
-    text-align: center;
-    margin: auto;
-}
-
-.Sec-5 .main button {
-    border: none;
+.Sec-3 .left form .Select-Country select,
+.adress,
+.company {
+    margin-bottom: 15px;
+    width: 300px;
+    padding: 7px;
     outline: none;
-    padding: 7px 20px;
-    margin-top: 18px;
-    font-weight: bolder;
-    font-weight: bold;
-    background-color: rgb(115, 54, 212);
-    font-size: 16px;
-    color: bisque;
-    margin-left: 190px;
+}
+
+.input {
+    margin-bottom: 15px;
+    padding: 7px;
+    outline: none;
 }
 
 
-.Sec-5 .main button a {
-    text-decoration: none;
+.name,
+.state,
+.contact {
+    display: flex;
+    justify-content: space-between;
+}
+
+.name li,
+.state li,
+.contact li {
+    margin-bottom: 05px;
+    margin-right: 10px;
+}
+
+/* right side */
+
+.first {
+    width: 450px;
+    margin-left: 50px;
+}
+
+.first h1 {
+    margin-left: 0;
+}
+
+.part-1 {
+    border: 01px solid #bbbbbb;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding: 50px 0 100px 10px;
+}
+
+/* Style the search field */
+.part-1 input[type=text] {
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid grey;
+    float: left;
+    width: 65%;
+    background: #f1f1f1;
+
+}
+
+/* Style the submit button */
+.part-1 button {
+    float: left;
+    width: 20%;
+    padding: 11px;
+    background: rgb(107, 3, 107);
     color: white;
     font-size: 12px;
-    font-weight: bold;
-    word-spacing: 2px;
-    letter-spacing: 1px;
+    border: 1px solid grey;
+    border-left: none;
+    /* Prevent double borders */
+    cursor: pointer;
 }
 
-.Sec-5 .main button:hover {
+.second {
+    width: 450px;
+    margin-left: 50px;
+}
+
+.second h1 {
+    margin-left: 0;
+    margin-top: 50px;
+}
+
+.part-2 {
+    border: 01px solid #bbbbbb;
+    padding: 50px 0 50px 10px;
+}
+
+.bold {
+    font-weight: bolder;
+}
+
+.a,
+.b,
+.c,
+.d,
+.e {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 10px;
+
+}
+
+.part-2 hr {
+    width: 70%;
+    margin-left: 70px;
+    margin-bottom: 10px;
+}
+
+span button {
+    border: 1px sold red;
+    width: 85%;
+    margin-top: 15px;
+    margin-left: 30px;
+    padding: 10px 0;
+}
+
+button a {
+    text-decoration: none;
+}
+
+.final {
+    margin-top: 70px;
+    background: rgb(107, 3, 107);
+    border: none;
+
+}
+
+.final a {
+    font-weight: bold;
+    color: white;
+}
+
+.final:hover {
     transform: scale(1.1);
     box-shadow: 5px 5px rgb(172, 170, 170);
 }
 
 /* ////////////////////Footer///////////////// */
+
+.footer-hr {
+    /* width: 4%;
+    margin: auto; */
+    height: 1px;
+    background-color: rgb(84, 83, 84);
+    margin-bottom: 70px;
+    margin-top: 70px;
+}
 
 footer div {
     display: flex;
@@ -401,7 +351,7 @@ footer div {
 
 }
 
-ul li {
+footer ul li {
     list-style-type: none;
     margin-top: 20px;
 }
@@ -449,7 +399,6 @@ form.example button {
     border-left: none;
     /* Prevent double borders */
     cursor: pointer;
-    
 }
 
 form.example button:hover {
